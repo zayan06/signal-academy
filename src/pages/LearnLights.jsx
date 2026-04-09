@@ -35,18 +35,18 @@ export default function LearnLights() {
         <p style={{ marginTop: '15px', fontWeight: 'bold' }}>Current Phase: {msgs[phase]}</p>
       </div>
 
-      <h2 style={{ marginTop: '50px' }}>1. Arrow Signals: Protected vs. Permissive</h2>
+      <h2 style={{ marginTop: '50px' }}>1.  Signals</h2>
       <div className="details-grid">
         <div className="detail-card" style={{ borderTop: '4px solid var(--success)' }}>
-            <h3>⬅️ Solid Green Arrow</h3>
+            <h3>⬅️ Solid Green </h3>
             <p><strong>Protected Turn:</strong> Absolute right of way.</p>
         </div>
         <div className="detail-card" style={{ borderTop: '4px solid var(--warning)' }}>
-            <h3>🟡 Flashing Yellow Arrow</h3>
+            <h3>🟡 Flashing Yellow </h3>
             <p><strong>Permissive Turn:</strong> Yield to oncoming traffic.</p>
         </div>
         <div className="detail-card" style={{ borderTop: '4px solid var(--danger)' }}>
-            <h3>🟥 Solid Red Arrow</h3>
+            <h3>🟥 Solid Red </h3>
             <p><strong>No Turning:</strong> Wait for green.</p>
         </div>
       </div>
