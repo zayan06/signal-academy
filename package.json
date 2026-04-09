@@ -1,7 +1,7 @@
 {
   "name": "signal-academy",
   "version": "0.1.0",
-  "homepage": "https://github.io/zayan06/signal-academy",
+  "homepage": "https://zayan06.github.io/signal-academy",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
